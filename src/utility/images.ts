@@ -9,6 +9,7 @@ import LOVE from './../assets/love.png'
 import TICK_SOUND from './../assets/tick.mp3'
 import SOUND_ON from './../assets/volume.png'
 import SOUND_OFF from './../assets/mute.png'
+import TS from './../assets/ts.png'
 
 export {
     HTML,
@@ -21,5 +22,6 @@ export {
     LOVE,
     TICK_SOUND,
     SOUND_OFF,
-    SOUND_ON
+    SOUND_ON,
+    TS
 }
