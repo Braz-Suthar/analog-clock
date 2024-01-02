@@ -1,4 +1,4 @@
-import Canvas from "./Canvas";
+import Canvas from "../Canvas";
 import './AnalogClock.css'
 import { useEffect, useState } from "react";
 

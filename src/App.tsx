@@ -1,6 +1,6 @@
 import './App.css'
-import AnalogClock from './AnalogClock'
-import Sidebar from './Sidebar'
+import AnalogClock from './components/AnalogClock'
+import Sidebar from './components/Sidebar'
 import { useEffect, useState } from 'react';
 
 function App() {
