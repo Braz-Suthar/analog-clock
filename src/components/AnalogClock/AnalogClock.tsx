@@ -90,7 +90,7 @@ const AnalogClock = ({ width, screenSize }: Props) => {
             const currentHour = new Date().getHours() % 12
             
             for(let number = 1; number <= 12; number++){
-                if(currentHour == number){
+                if(currentHour == number || (currentHour == 0 && number == 12)){
                     context.fillStyle = "rgba(0, 136, 255, 1)"
                 }else{
                     context.fillStyle = "rgba(0,0,0,0.55)"
